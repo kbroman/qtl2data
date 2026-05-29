@@ -8,6 +8,10 @@ Srivastava et al. (2017) Genomes of the Mouse Collaborative Cross. Genetics 206:
 The supplementary data is at Zenodo,
 [doi:10.5281/zenodo.377036](https://doi.org/10.5281/zenodo.377036).
 
+(Also see the [CCgeno repository](https://github.com/kbroman/CCgeno)
+which contains genotypes on a few more strains, though in a different
+form.)
+
 We've used the following:
 
 - `genotypes.zip`
