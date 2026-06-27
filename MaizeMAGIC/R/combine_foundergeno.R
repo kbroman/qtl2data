@@ -9,7 +9,7 @@ library(here)
 library(data.table)
 library(qtl2convert)
 library(parallel)
-n_cores <- parallel::detectCores()
+n_cores <- max(1,parallel::detectCores()-1)
 
 # load array-based founder genotypes
 founder_gfile <- here("Rawdata", "MMfounders.geno")

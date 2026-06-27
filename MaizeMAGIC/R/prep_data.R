@@ -6,7 +6,7 @@ library(qtl2convert)
 library(data.table)
 library(readxl)
 library(parallel)
-n_cores <- parallel::detectCores()
+n_cores <- max(1,parallel::detectCores()-1)
 
 rawdata_dir <- here("Rawdata")
 
